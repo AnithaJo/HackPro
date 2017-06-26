@@ -1,0 +1,33 @@
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+
+#include<iostream.h> 
+#include<conio.h> 
+void main() 
+{ 
+                class student   //Iocal class 
+      { 
+                private: 
+                                 int rn; 
+                                 float fees; 
+                public: 
+               void readdata() 
+           { 
+               cout<<"Enter the rollno. and fees of the student"; 
+               cin>>rn>>fees; 
+           } 
+                 void writedata() 
+           { 
+                cout<<"The rollno. is : "<<rn<<endl; 
+                cout<<"The fees is : "<<fees<<endl; 
+           } 
+      }; 
+                clrscr(); 
+                student st; //local object 
+                st.readdata(); 
+                st.writedata(); 
+                getch(); 
+                clrscr();
+} 
+

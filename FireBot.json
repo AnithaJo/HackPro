@@ -1,0 +1,1850 @@
+{
+  "luis_schema_version": "1.3.1",
+  "versionId": "0.1",
+  "name": "FireBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AccessCode"
+    },
+    {
+      "name": "AddOnePanel"
+    },
+    {
+      "name": "AddPanel"
+    },
+    {
+      "name": "AutoReadConfiguration"
+    },
+    {
+      "name": "Bluetooth"
+    },
+    {
+      "name": "BluetoothYes"
+    },
+    {
+      "name": "ChoosePanel1"
+    },
+    {
+      "name": "ConfigureSettings"
+    },
+    {
+      "name": "ConfigureZone"
+    },
+    {
+      "name": "ConnectToPanel"
+    },
+    {
+      "name": "CopyConfigurationFile"
+    },
+    {
+      "name": "CreateConfigFile"
+    },
+    {
+      "name": "Detectors"
+    },
+    {
+      "name": "DXC"
+    },
+    {
+      "name": "EventNumber"
+    },
+    {
+      "name": "Eventstatus"
+    },
+    {
+      "name": "EventStatus"
+    },
+    {
+      "name": "Exit"
+    },
+    {
+      "name": "Hi"
+    },
+    {
+      "name": "N1L1D1"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Office"
+    },
+    {
+      "name": "oiao"
+    },
+    {
+      "name": "OpenExistingFile"
+    },
+    {
+      "name": "Password"
+    },
+    {
+      "name": "ProgramDevices"
+    },
+    {
+      "name": "ReadEventData"
+    },
+    {
+      "name": "Synchronisation"
+    },
+    {
+      "name": "UpdateLabels"
+    },
+    {
+      "name": "UseCurrentLocation"
+    }
+  ],
+  "entities": [
+    {
+      "name": "EventNumber"
+    },
+    {
+      "name": "PassWord"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [
+    {
+      "name": "DetectorPatternN",
+      "pattern": "n\\dl\\dd\\d",
+      "activated": true
+    }
+  ],
+  "utterances": [
+    {
+      "text": "the number of loops is 3",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no is 3",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's your name",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "num is 3",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure right panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "configure readfire panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "configure loop 1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure notifier panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how do i configure my panel?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "configure notifier panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "configure panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure moreley panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can we create configuration file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me create a configuration file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "let's create a configuration file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me create config. file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure morley panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "config file creation",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes create",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "help me configure notifier 2 panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "config set",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "configure setings",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose moreley panel",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "chose verifire panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "config settings",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose verifire",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose panel morley",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lets choose notifire panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "verifire choose",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose notifire panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "klklk",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "scan qr code",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "assign devices",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "view summary",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "resolve conflicts",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "update existing",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "popopo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "bla bla",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "skip",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hospital",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "zone mapping",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pol",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "modules",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pw1234",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "pw7879",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "pw1342",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "pw6567",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "pw4545",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "pw1656",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "takee p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "p1l1d1 it is",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "p1l1d1 select",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "let us configure p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "p1l1d1 configuration",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "p1l1d1 configure",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "p1l1d1 take",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what about p1l1d1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wireless fidelity",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cloud",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "entity number is 10",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "5",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "cloud connectivity",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "usb",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do not list",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "panel 2",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "panel 2 i want",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "panel two",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choice is panel 2",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "choose panel 2",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "save to new file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "read configuration",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "show configuration",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "save to a new file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "create configuration file",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no,i'm done for the day",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes i need to perform more actions",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "zxc panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pluto panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "create one panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add two panels",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add 3 panels",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "add one panel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gotodxc",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "10",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do not assign",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "Exit",
+      "entities": []
+    },
+    {
+      "text": "leave now",
+      "intent": "Exit",
+      "entities": []
+    },
+    {
+      "text": "1",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "to",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "create config file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "configuration file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "yeah create configuration file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "create file for configuration",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "come lets create",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "develop config file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "lets create configuration file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "create confi file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "configuration file create",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "create new configuration file and sync to panel",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "create new config file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "create new configuration file",
+      "intent": "CreateConfigFile",
+      "entities": []
+    },
+    {
+      "text": "configure settings",
+      "intent": "ConfigureSettings",
+      "entities": []
+    },
+    {
+      "text": "lets configure the settings",
+      "intent": "ConfigureSettings",
+      "entities": []
+    },
+    {
+      "text": "configure zone",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "lets configure zones",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "zone configure",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "help me configure zone",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "help me configure zones",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "can we configure zone?",
+      "intent": "ConfigureZone",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "get started",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "heyya",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "hi.",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "helllloooo",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "hai",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "ho",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "hoi",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "good noon",
+      "intent": "Hi",
+      "entities": []
+    },
+    {
+      "text": "the building is office",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "its an office",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "the type is office",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "choose office",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "office it is",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "office",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "airport",
+      "intent": "Office",
+      "entities": []
+    },
+    {
+      "text": "do it automatically",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "read configuration automatically",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "auto read config",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "auto read configuration",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "automatic",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "auto",
+      "intent": "AutoReadConfiguration",
+      "entities": []
+    },
+    {
+      "text": "please connect to our panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "panel connect",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "let's connect",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "connect to panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "connect to the panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "conn to panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "connect",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "lets connect",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "choose panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "chose panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "choose panneel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "lets choose panel",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "connect to panel and read the data",
+      "intent": "ConnectToPanel",
+      "entities": []
+    },
+    {
+      "text": "can we open existing file ??",
+      "intent": "OpenExistingFile",
+      "entities": []
+    },
+    {
+      "text": "open our file",
+      "intent": "OpenExistingFile",
+      "entities": []
+    },
+    {
+      "text": "open existing file",
+      "intent": "OpenExistingFile",
+      "entities": []
+    },
+    {
+      "text": "open file",
+      "intent": "OpenExistingFile",
+      "entities": []
+    },
+    {
+      "text": "open an existing configuration file",
+      "intent": "OpenExistingFile",
+      "entities": []
+    },
+    {
+      "text": "lets choose panel 1",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "choose panel 1",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "i choose panel 1",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "panel 1 is to be chosen",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "panel 1",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "panel 1 is chosen",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "panel one",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "panel 1 i want",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "choice is panel 1",
+      "intent": "ChoosePanel1",
+      "entities": []
+    },
+    {
+      "text": "1908",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "4344",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "5433",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "the pass word is 6565",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "the password is 6767",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "access code is 7787",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "access code will be 6676",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "1234",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "12465695",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "12245",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "2256",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "3333",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "4444",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "5555565",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "66664",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "7777",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "88889",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "9999",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "ev",
+      "intent": "Password",
+      "entities": []
+    },
+    {
+      "text": "55565",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "3214",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "1246421.",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "5215",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "52465",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "235694",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "9898",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "7878",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "9875",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "58585",
+      "intent": "Password",
+      "entities": [
+        {
+          "entity": "PassWord",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "copy configuration file",
+      "intent": "CopyConfigurationFile",
+      "entities": []
+    },
+    {
+      "text": "copy the same config file",
+      "intent": "CopyConfigurationFile",
+      "entities": []
+    },
+    {
+      "text": "lets copy the same configuration files",
+      "intent": "CopyConfigurationFile",
+      "entities": []
+    },
+    {
+      "text": "let the configuration file be copied",
+      "intent": "CopyConfigurationFile",
+      "entities": []
+    },
+    {
+      "text": "take location now",
+      "intent": "UseCurrentLocation",
+      "entities": []
+    },
+    {
+      "text": "take current location",
+      "intent": "UseCurrentLocation",
+      "entities": []
+    },
+    {
+      "text": "use current location",
+      "intent": "UseCurrentLocation",
+      "entities": []
+    },
+    {
+      "text": "lables can be updated",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "update labels",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "will you update the labels for me",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "label can be updated",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "assign default labels",
+      "intent": "UpdateLabels",
+      "entities": []
+    },
+    {
+      "text": "lets sync it",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "sync it",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "sync with panel",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "sync",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "yes sync",
+      "intent": "Synchronisation",
+      "entities": []
+    },
+    {
+      "text": "access code",
+      "intent": "AccessCode",
+      "entities": []
+    },
+    {
+      "text": "please enter access code",
+      "intent": "AccessCode",
+      "entities": []
+    },
+    {
+      "text": "enter access code",
+      "intent": "AccessCode",
+      "entities": []
+    },
+    {
+      "text": "try access code",
+      "intent": "AccessCode",
+      "entities": []
+    },
+    {
+      "text": "i choose access code",
+      "intent": "AccessCode",
+      "entities": []
+    },
+    {
+      "text": "read event data",
+      "intent": "ReadEventData",
+      "entities": []
+    },
+    {
+      "text": "can you read event data for me?",
+      "intent": "ReadEventData",
+      "entities": []
+    },
+    {
+      "text": "list event data",
+      "intent": "ReadEventData",
+      "entities": []
+    },
+    {
+      "text": "event status",
+      "intent": "EventStatus",
+      "entities": []
+    },
+    {
+      "text": "can you show event status",
+      "intent": "EventStatus",
+      "entities": []
+    },
+    {
+      "text": "show event status",
+      "intent": "EventStatus",
+      "entities": []
+    },
+    {
+      "text": "show status of events",
+      "intent": "EventStatus",
+      "entities": []
+    },
+    {
+      "text": "choose detectors",
+      "intent": "EventStatus",
+      "entities": []
+    },
+    {
+      "text": "program devices",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "program me some devices",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "lets program devices",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "help me program devices",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "lets program some devices",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "program devices for me",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "device program",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "pro dev",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "program",
+      "intent": "ProgramDevices",
+      "entities": []
+    },
+    {
+      "text": "detectors",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "program detectors",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "configure detectors",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "edit detectors",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "choose modules",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "i want event status",
+      "intent": "Detectors",
+      "entities": []
+    },
+    {
+      "text": "n1l1d1",
+      "intent": "N1L1D1",
+      "entities": []
+    },
+    {
+      "text": "choose n1l1d1",
+      "intent": "N1L1D1",
+      "entities": []
+    },
+    {
+      "text": "take n1l1d1",
+      "intent": "N1L1D1",
+      "entities": []
+    },
+    {
+      "text": "let it be n1l1d1",
+      "intent": "N1L1D1",
+      "entities": []
+    },
+    {
+      "text": "event status show",
+      "intent": "Eventstatus",
+      "entities": []
+    },
+    {
+      "text": "please show event status",
+      "intent": "Eventstatus",
+      "entities": []
+    },
+    {
+      "text": "give event status",
+      "intent": "Eventstatus",
+      "entities": []
+    },
+    {
+      "text": "list event status",
+      "intent": "Eventstatus",
+      "entities": []
+    },
+    {
+      "text": "bluetooth connectivity",
+      "intent": "Bluetooth",
+      "entities": []
+    },
+    {
+      "text": "connect via bluetooth",
+      "intent": "Bluetooth",
+      "entities": []
+    },
+    {
+      "text": "connect it to bluetooth",
+      "intent": "Bluetooth",
+      "entities": []
+    },
+    {
+      "text": "bluetooth is my choice",
+      "intent": "Bluetooth",
+      "entities": []
+    },
+    {
+      "text": "connect to bluetooth",
+      "intent": "Bluetooth",
+      "entities": []
+    },
+    {
+      "text": "event number is 10",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "event number will be 15",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "event number :15",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "5 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "10 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "15 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "7 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "2 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "3 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "4 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "6 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "11 events",
+      "intent": "EventNumber",
+      "entities": [
+        {
+          "entity": "EventNumber",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "bluetooth yes",
+      "intent": "BluetoothYes",
+      "entities": []
+    },
+    {
+      "text": "yes, list the nearby bluetooth devices",
+      "intent": "BluetoothYes",
+      "entities": []
+    },
+    {
+      "text": "yes, add panel",
+      "intent": "AddPanel",
+      "entities": []
+    },
+    {
+      "text": "add panel",
+      "intent": "AddPanel",
+      "entities": []
+    },
+    {
+      "text": "add panel to building",
+      "intent": "AddPanel",
+      "entities": []
+    },
+    {
+      "text": "dxc panel",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "add dxc panel",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "dxc panel add",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "dxc",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "choose panel dxc",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "goto panel dxc",
+      "intent": "DXC",
+      "entities": []
+    },
+    {
+      "text": "goto dxc panel",
+      "intent": "DXC",
+      "entities": []
+    },
+    
+    {
+      "text": "add one loop",
+      "intent": "AddOnePanel",
+      "entities": []
+    },
+    {
+      "text": "oiao",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "1 in all out",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "one in all out",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "take me to oiao",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "take to oiao",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "me take oiao",
+      "intent": "oiao",
+      "entities": []
+    },
+    {
+      "text": "abort",
+      "intent": "Exit",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Exit",
+      "entities": []
+    },
+    {
+      "text": "thank you",
+      "intent": "Exit",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "Exit",
+      "entities": []
+    }
+  ]
+}
